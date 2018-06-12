@@ -11,13 +11,6 @@ const TaskSchema = new Schema({
     type: Date,
     default: Date.now
   },
-  // status: {
-  //   type: [{
-  //     type: String,
-  //     enum: ['incompleted', 'completed']
-  //   }],
-  //   default: ['incompleted']
-  // },
   completed: false
 });
 

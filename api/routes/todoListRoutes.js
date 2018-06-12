@@ -1,7 +1,6 @@
 
 module.exports = function(app) {
   let todoList = require('../controllers/todoListController');
-  const cors = require('cors');
 
   // todoList Routes
   app.route('/tasks')
